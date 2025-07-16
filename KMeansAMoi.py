@@ -1,7 +1,7 @@
 import numpy as np
 
 class KMeans:
-    def __init__(self, k, max_iters=100, tol=1e-4):
+    def __init__(self, k, max_iters=100, tol=0.0001):
         self.k = k
         self.max_iters = max_iters
         self.tol = tol  # tolérance pour la convergence
@@ -10,7 +10,7 @@ class KMeans:
 
     def fit(self, X):
         # Choisir aléatoirement k points comme centroïdes initiaux
-        np.random.seed(42)
+        np.random.seed(31)
         random_indices = np.random.permutation(X.shape[0])[:self.k]
         self.centroids = X[random_indices]
 
