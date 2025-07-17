@@ -11,6 +11,9 @@ Principe : Identifier visuellement un « coude » sur une courbe représentant l
 Avantage : Facile à comprendre et à appliquer.
 Limite : Assez subjective et parfois difficile à interpréter.
 
+![Texte alternatif](<img width="1920" height="1080" alt="k-means-clustering-graph" src="https://github.com/user-attachments/assets/559f6bd5-93ed-4a94-a059-c6f77c7764bd" />
+)
+
 b. Score de Silhouette
 Principe : Calcule la qualité de séparation des clusters, en évaluant à la fois leur cohésion interne et leur séparation externe. Un score élevé indique un bon clustering.
 Avantage : Intuitif, facile à interpréter.
