@@ -11,13 +11,17 @@ Principe : Identifier visuellement un « coude » sur une courbe représentant l
 Avantage : Facile à comprendre et à appliquer.
 Limite : Assez subjective et parfois difficile à interpréter.
 
-<img width="290" height="174" alt="image" src="https://github.com/user-attachments/assets/959852cf-4a85-416a-8671-9a1d3132cf7a" />
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/efdbf680-f8a6-4370-a6d2-2e46335cd1f2" />
+
 
 
 b. Score de Silhouette
 Principe : Calcule la qualité de séparation des clusters, en évaluant à la fois leur cohésion interne et leur séparation externe. Un score élevé indique un bon clustering.
 Avantage : Intuitif, facile à interpréter.
 Limite : Peut devenir lent à calculer sur de gros volumes de données.
+
+<img width="1292" height="1232" alt="image" src="https://github.com/user-attachments/assets/51464814-1ad8-479f-9172-892399ad18fd" />
+
 
 c. Indice Davies-Bouldin
 Principe : Évalue le rapport entre la dispersion interne des clusters et leur séparation externe. Plus l'indice est faible, meilleur est le clustering.
