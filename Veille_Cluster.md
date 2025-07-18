@@ -28,6 +28,9 @@ Principe : Évalue le rapport entre la dispersion interne des clusters et leur s
 Avantage : Rapide à calculer, simple à comprendre.
 Limite : Moins performant avec des clusters de tailles et formes variées.
 
+<img width="271" height="186" alt="image" src="https://github.com/user-attachments/assets/87c89636-c773-4b0e-877d-e2028778839f" />
+
+
 d. Indice Calinski-Harabasz
 Principe : Basé sur le rapport entre variance inter-clusters et variance intra-clusters. Une valeur élevée signifie un clustering efficace.
 Avantage : Simple et efficace.
