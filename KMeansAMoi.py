@@ -1,6 +1,6 @@
 import numpy as np
 
-class KMeans:
+class test :
     def __init__(self, k, max_iters=100, tol=0.0001):
         self.k = k
         self.max_iters = max_iters
